@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bganimal"
+    tools:context=".animals">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+            <!--1 dog-->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:src="@drawable/dog" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="DOG"
+                android:textSize="30dp"/>
+            <!--2 cat-->
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:src="@drawable/cat" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:text="CAT"
+                android:textSize="30dp"/>
+            <!--3 cow-->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:src="@drawable/cow" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="COW"
+                android:textSize="30dp"/>
+            <!--4 pig-->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:src="@drawable/pig" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:text="PIG"
+                android:textSize="30dp"/>
+            <!--5 bear-->
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:src="@drawable/bear" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:text="BEAR"
+                android:textSize="30dp"/>
+            <!--6 lion-->
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:src="@drawable/lion" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:text="LION"
+                android:textSize="30dp"/>
+            <!--7 elephant-->
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:src="@drawable/elephant" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="6"
+                android:text="ELEPHANT"
+                android:textSize="23dp"/>
+            <!--8 puppy-->
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="7"
+                android:src="@drawable/puppy" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="7"
+                android:text="PUPPY"
+                android:textSize="30dp"/>
+            <!--9 lamb-->
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:src="@drawable/lamb" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="8"
+                android:text="LAMB"
+                android:textSize="30dp"/>
+            <!--10 monkey-->
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="9"
+                android:src="@drawable/monkey" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="9"
+                android:text="MONKEY"
+                android:textSize="28dp"/>
+            <!--11 snake-->
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="10"
+                android:src="@drawable/snake" />
+            <Button
+                android:id="@+id/button21"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="10"
+                android:text="SNAKE"
+                android:textSize="30dp"/>
+            <!--12 DOLPHIN-->
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="11"
+                android:src="@drawable/dolphin" />
+            <Button
+                android:id="@+id/button22"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="11"
+                android:text="DOLPHIN"
+                android:textSize="26dp"/>
+            <!--13 FROG-->
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="12"
+                android:src="@drawable/frog" />
+            <Button
+                android:id="@+id/button23"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="12"
+                android:text="FROG"
+                android:textSize="30dp"/>
+            <!--14 FOX-->
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="13"
+                android:src="@drawable/fox" />
+            <Button
+                android:id="@+id/button24"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="13"
+                android:text="FOX"
+                android:textSize="30dp"/>
+            <!--15 SQUIRREL-->
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="14"
+                android:src="@drawable/squirrel" />
+            <Button
+                android:id="@+id/button25"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="14"
+                android:text="SQUIRREL"
+                android:textSize="25dp"/>
+            <!--16 rino-->
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:layout_row="15"
+                android:src="@drawable/mosquito" />
+            <Button
+                android:id="@+id/button26"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_column="1"
+                android:layout_row="15"
+                android:text="MOSQUITO"
+                android:textSize="22dp"/>
+
+        </GridLayout>
+</ScrollView>
